@@ -1,0 +1,33 @@
+@import url(./fields/index.css);
+
+fieldset {
+  display: grid;
+  border: none;
+
+  gap: 1rem;
+
+  & label {
+    font: var(--body-sm);
+    color: var(--text-body);
+  }
+
+  & legend {
+    display: flex;
+    margin-bottom: 1.5rem;
+
+    font: var(--heading-sm);
+    color: var(--text-heading);
+
+    & img {
+      width: 1.5rem;
+      margin-right: 0.75rem;
+
+      filter: brightness(0) saturate(100%) invert(64%) sepia(12%) saturate(273%)
+        hue-rotate(160deg) brightness(87%) contrast(87%);
+    }
+  }
+}
+
+fieldset {
+  margin-bottom: 3rem;
+}

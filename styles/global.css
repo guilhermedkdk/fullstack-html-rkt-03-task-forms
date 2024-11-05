@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+  --purple: #b259ff;
+  --fuschia: #ff59f9;
+  --pink: #ff598b;
+  --orange: #ff8b59;
+  --yellow: #ffcd59;
+  --lime: #e1ff59;
+  --green: #59ff91;
+  --cyan: #59fff9;
+  --navy: #6a59ff;
+
+  --danger: #ff5959;
+
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
+
+  --font-leckerli: "Leckerli One", system-ui;
+  --logo: normal 2.5rem var(--font-leckerli);
+
+  --font-baloo: "Baloo 2", system-ui;
+  --heading-md: bold 1.75rem var(--font-baloo);
+  --heading-sm: bold 1.125rem var(--font-baloo);
+
+  --font-sans: "Open Sans", system-ui;
+  --body-md: 400 1rem var(--font-sans);
+  --body-sm: 400 0.875rem var(--font-sans);
+  --body-xs: 400 0.75rem var(--font-sans);
+}
