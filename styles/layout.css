@@ -1,12 +1,15 @@
 .app {
   display: grid;
   grid-template-columns: auto 1fr;
+  overflow: hidden;
+
   height: 100vh;
 
   background-color: var(--shape-background);
-  overflow: hidden;
 
   & aside {
+    overflow: hidden;
+
     background-image: url(../assets/Background.png);
     background-size: cover;
     background-position: center;
@@ -16,8 +19,7 @@
     height: calc(100vh - 5rem);
     margin: 1.25rem;
 
-    border-radius: 0.75rem;
-    overflow: hidden;
+    border-radius: 12px;
 
     & header {
       margin: 2rem;
@@ -48,7 +50,7 @@
     margin: 1.25rem;
     margin-left: 0;
 
-    border-radius: 0.75rem;
+    border-radius: 12px;
     background-color: var(--shape-body);
 
     scrollbar-width: auto;

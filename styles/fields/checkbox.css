@@ -1,9 +1,9 @@
 .switch-container {
   display: flex;
-  margin-top: 0.75rem;
-  gap: 1rem;
-
   align-items: center;
+
+  gap: 1rem;
+  margin-top: 0.75rem;
 
   & .switch {
     position: relative;
@@ -33,15 +33,17 @@
       bottom: 0;
 
       cursor: pointer;
-      background-color: var(--input-base);
+
       border: 1.5px solid var(--input-stroke);
       border-radius: 999px;
+
+      background-color: var(--input-base);
 
       transition: 0.4s;
 
       &:before {
-        position: absolute;
         content: "";
+        position: absolute;
         left: 2.8px;
         bottom: 2.8px;
 
@@ -76,12 +78,13 @@
     height: 1.25rem;
     margin-bottom: 0.5rem;
 
-    border-radius: 0.25rem;
+    border-radius: 4px;
     border: 1.5px solid var(--input-stroke);
     background-color: var(--input-base);
 
     & input {
       all: unset;
+
       position: absolute;
       inset: 0;
     }
@@ -101,6 +104,7 @@
   footer {
     display: flex;
     flex-direction: column;
+
     gap: 0.5rem;
   }
 }
