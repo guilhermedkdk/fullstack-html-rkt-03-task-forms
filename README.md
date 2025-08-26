@@ -1,13 +1,12 @@
 <h1 align="center"> Desafio - Festive Page </h1>
 
 <p align= "center">
-Uma página de formulário para a criação de um convite feita como forma de um desafio do curso Fullstack da Rocketseat
+Uma página de formulário de criação de um convite feita como forma de um desafio do curso Fullstack da Rocketseat
 </p>
 
 <p align="center">
 <a href="https://guilhermedkdk.github.io/page-festive/">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="#-desafio">💻 Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-aprendizados">📚 Aprendizados</a>
 </p>
 
@@ -22,10 +21,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - Git e Github
 - FIGMA
-
-## 💻 Desafio
-
-A "Festive Page" foi um desafio do curso Fullstack da Rocketseat no módulo "HTML e CSS Avançado". Onde consolidei conhecimentos sobre formulários, inputs e Display.
 
 ## 📚 Aprendizados
 
